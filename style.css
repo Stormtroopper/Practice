@@ -1,0 +1,310 @@
+                                                                                    * {
+                                                                                    margin: 0;
+                                                                                    padding: 0;
+                                                                                    box-sizing: border-box;
+                                                                                }
+                                                                                
+                                                                                body {
+                                                                                    font-family: 'Open Sans', sans-serif;
+                                                                                }
+                                                                                
+                                                                                .navbar {
+                                                                                    display: flex;
+                                                                                    align-items: center;
+                                                                                    padding: 23px;
+                                                                                }
+                                                                                
+                                                                                nav {
+                                                                                    flex: 1;
+                                                                                    text-align: right;
+                                                                                }
+                                                                                
+                                                                                nav ul {
+                                                                                    display: inline-block;
+                                                                                    list-style-type: none;
+                                                                                }
+                                                                                
+                                                                                nav ul li {
+                                                                                    display: inline-block;
+                                                                                    margin-right: 15px;
+                                                                                }
+                                                                                
+                                                                                a {
+                                                                                    text-decoration: none;
+                                                                                    color: #442;
+                                                                                }
+                                                                                
+                                                                                p {
+                                                                                    color: #442;
+                                                                                }
+                                                                                
+                                                                                .container {
+                                                                                    max-width: 13200px;
+                                                                                    margin: auto;
+                                                                                    padding-left: 26px;
+                                                                                    padding-right: 26px;
+                                                                                }
+                                                                                
+                                                                                .boating {
+                                                                                    display: flex;
+                                                                                    align-items: center;
+                                                                                    flex-wrap: wrap;
+                                                                                    justify-content: space-around;
+                                                                                }
+                                                                                
+                                                                                .col-2 {
+                                                                                    flex-basis: 50%;
+                                                                                    min-width: 200px;
+                                                                                }
+                                                                                
+                                                                                .col-2 img {
+                                                                                    max-width: 100%;
+                                                                                    padding: 50px 0;
+                                                                                }
+                                                                                
+                                                                                .col-2 h1 {
+                                                                                    font-size: 50px;
+                                                                                    line-height: 55px;
+                                                                                    margin: 25px 0;
+                                                                                }
+                                                                                
+                                                                                .btn {
+                                                                                    display: inline-block;
+                                                                                    background-color: #ff345f;
+                                                                                    color: #fff;
+                                                                                    padding: 12px 34px;
+                                                                                    margin: 30px;
+                                                                                    border-radius: 30px;
+                                                                                    transition: background 0.3s;
+                                                                                }
+                                                                                
+                                                                                .btn:hover {
+                                                                                    background: #562356;
+                                                                                }
+                                                                                
+                                                                                .header {
+                                                                                    background: radial-gradient(#654b83, #ffd6ff);
+                                                                                }
+                                                                                
+                                                                                .header .row {
+                                                                                    margin-top: 75px;
+                                                                                }
+                                                                                
+                                                                                .sections {
+                                                                                    margin: 65px 0;
+                                                                                }
+                                                                                
+                                                                                .col-3 {
+                                                                                    flex-basis: 30%;
+                                                                                    min-width: 250px;
+                                                                                    margin-bottom: 32px;
+                                                                                }
+                                                                                
+                                                                                .col-3 img {
+                                                                                    width: 100%;
+                                                                                }
+                                                                                
+                                                                                .Tiny-container {
+                                                                                    max-width: 500px;
+                                                                                    margin: auto;
+                                                                                    padding-left: 20px;
+                                                                                    padding-right: 20px;
+                                                                                }
+                                                                                
+                                                                                .col-4 {
+                                                                                    flex-basis: 24%;
+                                                                                    padding: 12px;
+                                                                                    min-width: 200px;
+                                                                                    margin-bottom: 50px;
+                                                                                    transition: 0.3s;
+                                                                                }
+                                                                                
+                                                                                .col-4 img {
+                                                                                    width: 100%;
+                                                                                }
+                                                                                
+                                                                                .Title {
+                                                                                    text-align: center;
+                                                                                    margin: 0 auto 75px;
+                                                                                    position: relative;
+                                                                                    line-height: 55px;
+                                                                                    color: #0404055b;
+                                                                                }
+                                                                                
+                                                                                .Title::after {
+                                                                                    content: '';
+                                                                                    background: #0e0003;
+                                                                                    width: 80px;
+                                                                                    height: 4px;
+                                                                                    border-radius: 4px;
+                                                                                    position: absolute;
+                                                                                    bottom: 0;
+                                                                                    left: 50%;
+                                                                                    transform: translateX(-45%);
+                                                                                }
+                                                                                
+                                                                                h4 {
+                                                                                    color: rgb(22, 20, 20);
+                                                                                    font-weight: normal;
+                                                                                }
+                                                                                
+                                                                                .col-4 p {
+                                                                                    font-size: 14px;
+                                                                                }
+                                                                                
+                                                                                .rating .fa {
+                                                                                    color: #ff523b;
+                                                                                }
+                                                                                
+                                                                                .col-4:hover {
+                                                                                    transform: translateY(-4px);
+                                                                                }
+                                                                                
+                                                                                .test {
+                                                                                    padding-top: 120px;
+                                                                                }
+                                                                                
+                                                                                .test col-3 {
+                                                                                    text-align: center;
+                                                                                    padding: 43px 23px;
+                                                                                    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+                                                                                    cursor: pointer;
+                                                                                    transition: 0.6s;
+                                                                                }
+                                                                                
+                                                                                .test col-3 img {
+                                                                                    width: 52px;
+                                                                                    margin-top: 22px;
+                                                                                    border-radius: 45%;
+                                                                                }
+                                                                                
+                                                                                .test .col-3:hover {
+                                                                                    transform: translateY(-10px);
+                                                                                }
+                                                                                
+                                                                                .test .col-3 h3 {
+                                                                                    font-weight: 550;
+                                                                                    color: rebeccapurple;
+                                                                                    font-size: 12px;
+                                                                                }
+                                                                                
+                                                                                .brands {
+                                                                                    margin: 100px auto;
+                                                                                }
+                                                                                
+                                                                                .col-5 {
+                                                                                    width: 150px;
+                                                                                }
+                                                                                
+                                                                                .col-5 img {
+                                                                                    width: 100%;
+                                                                                    cursor: pointer;
+                                                                                    filter: grayscale(100%);
+                                                                                }
+                                                                                
+                                                                                .col-5 img:hover {
+                                                                                    filter: grayscale(0%);
+                                                                                }
+                                                                                
+                                                                                .footer {
+                                                                                    background: #000;
+                                                                                    color: #ff345f;
+                                                                                    font-size: 18px;
+                                                                                    padding: 55px 0 24px;
+                                                                                }
+                                                                                
+                                                                                .footer p {
+                                                                                    color: #ff345f;
+                                                                                    margin-bottom: 20px;
+                                                                                }
+                                                                                
+                                                                                .foot-col-1,
+                                                                                .foot-col-2,
+                                                                                .foot-col-3,
+                                                                                .foot-col-4 {
+                                                                                    min-width: 200px;
+                                                                                    margin-bottom: 20px;
+                                                                                }
+                                                                                
+                                                                                .foot-col-1 {
+                                                                                    flex-basis: 32%;
+                                                                                }
+                                                                                
+                                                                                .foot-col-2 {
+                                                                                    flex-basis: 32%;
+                                                                                    text-align: center;
+                                                                                }
+                                                                                
+                                                                                .foot-col-2 img {
+                                                                                    width: 175px;
+                                                                                    margin-bottom: 22px;
+                                                                                }
+                                                                                
+                                                                                .foot-col-3,
+                                                                                .foot-col-4 {
+                                                                                    flex-basis: 10%;
+                                                                                    text-align: center;
+                                                                                }
+                                                                                
+                                                                                ul {
+                                                                                    list-style-type: none;
+                                                                                }
+                                                                                
+                                                                                .app {
+                                                                                    margin-top: 20px;
+                                                                                }
+                                                                                
+                                                                                .app img {
+                                                                                    width: 145px;
+                                                                                }
+                                                                                
+                                                                                .foot hr {
+                                                                                    border: none;
+                                                                                    background: #ff523b;
+                                                                                    height: 1px;
+                                                                                    margin: 10px;
+                                                                                }
+                                                                                
+                                                                                .Copyright {
+                                                                                    text-align: center;
+                                                                                }
+                                                                                
+                                                                                .menu {
+                                                                                    width: 25px;
+                                                                                    margin-left: 22px;
+                                                                                    display: none;
+                                                                                }
+                                                                                
+                                                                                @media only screen and (max-width:800px) {
+                                                                                    nav ul {
+                                                                                        position: absolute;
+                                                                                        top: 70px;
+                                                                                        left: 0;
+                                                                                        background: #ff235d43;
+                                                                                        width: 100%;
+                                                                                        overflow: hidden;
+                                                                                        transition: max-height 0.3s;
+                                                                                    }
+                                                                                    nav ul li {
+                                                                                        display: block;
+                                                                                        margin-right: 50px;
+                                                                                        margin-top: 10px;
+                                                                                        margin-bottom: 10px;
+                                                                                    }
+                                                                                    nav ul li a {
+                                                                                        color: #fff;
+                                                                                    }
+                                                                                    .menu {
+                                                                                        display: block;
+                                                                                        cursor: pointer;
+                                                                                    }
+                                                                                    @media only screen and (max-width: 600px) {
+                                                                                        .boating {
+                                                                                            text-align: center;
+                                                                                        }
+                                                                                        .col-2,
+                                                                                        .col-3,
+                                                                                        .col-4 {
+                                                                                            flex-basis: 100%;
+                                                                                        }
+                                                                                    }
